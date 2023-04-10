@@ -4,7 +4,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 public class SocketDemo {
-    public void inetAddress() throws UnknownHostException {
+    public static void main(String[] args) throws UnknownHostException {
         InetAddress localHost = InetAddress.getLocalHost();
         String host = localHost.getHostName();
         String ip = localHost.getHostAddress();
